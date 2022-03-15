@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+
+/* Divisões */
+
+.divider1 {
+  display: flex;
+  background: rgba(47, 46, 54, 0.185);
+
+  height: 2px;
+  width: 20rem;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title1,
+.description {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 0.6rem;
+
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.blockInfo1 {
+  text-align: center;
+}
+
+.blockInfo2 {
+  text-align: center;
+}
+
+.noteBlocks {
+  place-items: center;
+}
+
+.notNote {
+  width: 200px;
+  height: 200px;
+}
+
+/* Bloco 1 */
+
+.blockInfo1 {
+  display: block;
+
+  border-radius: 5px;
+  border-top: 5px solid rgb(255, 0, 64);
+
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgb(219, 219, 219);
+
+  width: 20rem;
+  height: 8rem;
+
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+/* Bloco 2 */
+
+.blockInfo2 {
+  display: block;
+
+  border-radius: 5px;
+  border-top: 5px solid rgb(255, 0, 64);
+
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgb(219, 219, 219);
+
+  width: 20rem;
+  height: 16rem;
+
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
